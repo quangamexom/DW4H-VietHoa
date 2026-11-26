@@ -1,0 +1,5 @@
+*.gokon
+*.zip
+__pycache__/
+*.pyc
+_test_sandbox/

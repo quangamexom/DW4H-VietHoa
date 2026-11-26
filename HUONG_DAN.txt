@@ -1,0 +1,30 @@
+========================================================================
+  VIỆT HÓA DYNASTY WARRIORS 4 HYPER (PC) — PHIÊN BẢN 1.0
+  Quán Game Xóm — Biên dịch theo phong vị Tam Quốc Diễn Nghĩa (La Quán Trung)
+========================================================================
+
+1. YÊU CẦU
+- Bộ game gốc Dynasty Warriors 4 Hyper bản PC (English) sạch, chưa chỉnh sửa.
+- Python 3.8+ (tải miễn phí tại https://www.python.org/downloads/, nhớ tick "Add Python to PATH").
+- Trống tối thiểu ~600 MB trên ổ đĩa chứa game.
+- Đóng game hoàn toàn trước khi cài.
+
+2. CÁCH CÀI ĐẶT (1 BƯỚC)
+- Giải nén toàn bộ file trong gói Patch vào cùng một thư mục.
+- Chạy file:  CAI_DAT_VIET_HOA.bat
+  (Hoặc kéo thả trực tiếp thư mục chứa game vào file CAI_DAT_VIET_HOA.bat).
+- Chọn thư mục cài đặt game (thư mục có chứa file 'Dynasty Warriors 4 Hyper.exe').
+- Chờ khoảng 30–60 giây để công cụ kiểm tra bản gốc, sao lưu tự động, vá 371 tài nguyên
+  và đối chiếu toàn vẹn SHA-256.
+- Khi hiện "CÀI ĐẶT THÀNH CÔNG 100%", mở 'Dynasty Warriors 4 Hyper.exe' để chơi!
+
+3. CÁCH GỠ VIỆT HÓA (KHÔI PHỤC GAME GỐC SẠCH 100%)
+- Chạy file:  GO_VIET_HOA.bat
+- Chọn lại thư mục game đã cài Việt hóa.
+- Công cụ sẽ tự động khôi phục 4 file gốc nguyên bản (kiểm tra khớp SHA-256 100%).
+
+4. LƯU Ý
+- Bản vá KHÔNG động vào file save của bạn (Documents\KOEI\Dynasty Warriors 4 Hyper\Savedata\save.dat).
+  Nên sao lưu trước file save nếu bạn muốn giữ an toàn tuyệt đối.
+- Dự án Việt hóa phi thương mại, chỉ phát hành gói Patch (không kèm file game bản quyền).
+  Mọi bản quyền gốc thuộc về KOEI Co., Ltd.

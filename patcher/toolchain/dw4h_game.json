@@ -1,0 +1,102 @@
+{
+  "game_id": "DW4H",
+  "game_index": 11,
+  "display_name": "Dynasty Warriors 4 Hyper",
+  "unpack_folder": "DW4H_Unpacked",
+  "entry_size": 16,
+  "field_size": 4,
+  "has_cipher": false,
+  "family": 1,
+  "parts": [
+    {
+      "container": "media\\linkdata.BIN",
+      "toc": "media\\data\\etc\\mdata.bin",
+      "toc_offset": 16,
+      "entry_size": 16,
+      "alignment": 2048,
+      "count_offset": 0,
+      "sector_field": 4,
+      "offset_shift": 11,
+      "field_size": 4,
+      "big_endian": false,
+      "fields": [
+        "Offset",
+        "Sector_Span",
+        "Original_Size",
+        "Unused_00"
+      ],
+      "shift_fields": [
+        "Offset"
+      ],
+      "pack": "Linkdata",
+      "named": true,
+      "patchable": true
+    },
+    {
+      "container": "media\\data\\etc\\resource.bin",
+      "toc": "",
+      "toc_offset": 16,
+      "entry_size": 8,
+      "alignment": 2048,
+      "count_offset": 4,
+      "sector_field": 0,
+      "offset_shift": 11,
+      "field_size": 4,
+      "big_endian": false,
+      "fields": [
+        "Offset",
+        "Original_Size"
+      ],
+      "shift_fields": [
+        "Offset"
+      ],
+      "pack": "Resource",
+      "named": false,
+      "patchable": false
+    },
+    {
+      "container": "media\\data\\sound\\voice\\voice_jp.bns",
+      "toc": "",
+      "toc_offset": 0,
+      "entry_size": 0,
+      "alignment": 2048,
+      "count_offset": 0,
+      "sector_field": 0,
+      "offset_shift": 0,
+      "field_size": 0,
+      "big_endian": false,
+      "fields": [],
+      "shift_fields": [],
+      "pack": "Voice_JP",
+      "named": false,
+      "patchable": false
+    },
+    {
+      "container": "media\\data\\sound\\voice\\voice_us.bns",
+      "toc": "",
+      "toc_offset": 0,
+      "entry_size": 0,
+      "alignment": 2048,
+      "count_offset": 0,
+      "sector_field": 0,
+      "offset_shift": 0,
+      "field_size": 0,
+      "big_endian": false,
+      "fields": [],
+      "shift_fields": [],
+      "pack": "Voice_US",
+      "named": false,
+      "patchable": false
+    }
+  ],
+  "containers": [
+    "media\\linkdata.BIN",
+    "media\\data\\etc\\resource.bin",
+    "media\\data\\sound\\voice\\voice_jp.bns",
+    "media\\data\\sound\\voice\\voice_us.bns"
+  ],
+  "idx_files": [
+    "media\\data\\etc\\mdata.bin",
+    "media\\data\\etc\\resource.bin"
+  ]
+}
